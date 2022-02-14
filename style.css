@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+    width: 70%;
+    margin: auto;
+    font-size:16px
+}
+
+.card{
+    background-color: white;
+    border-radius: 12px;
+
+    padding: 22px 25px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0px 42px 0px;
+}
+
+#avatar{
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px 5px 15px;
+}
+
+.description{
+    padding: 20px;
+    font-size: 14px;
+}
+.sidebar{
+    width: 40%;
+}
+
+.importantInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin:10px;
+    
+  }
+  
+  .skills {
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: white; 
+  }
+
+  .html{ width:95%; background-color: aqua;}
+  .react {width: 30%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .javascript {width: 60%; background-color: #f44336;} /* Red */
+  .nodejs {width: 60%; background-color: #808080;} /* Dark Grey */
+  
+.jobLogo img{
+    width: 110px;
+    margin: 10px;
+}
+.jobCard{
+    display: flex;
+    margin-top: 30px;
+}
+.secciontittle{
+padding: 20px;
+}
+
+.jobInfo{
+    padding-left: 10px;
+}
+.jobTitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.jobdescription{
+    padding-top: 15px;
+    color: #828282;
+}
+
+
+.date{
+    font-size: 16px;
+    color: #828282;
+}
+  .hobbies{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+  .hobbies img{
+      width: 100%;
+      
+  }
+.hobbiesCard{
+    width: 20%;
+    height: fit-content;
+}
+.hobbiesCard h2{
+    padding-top: 12px;
+}
+
+.hobbieP{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+
+  .projectCards img{
+      width: 85%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+
+  }
+
+  .main{
+      width: 50%;
+  }
+  .projectCards{
+      width: 25%;
+  }
+  .projects{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .Hastag{
+      padding: 10px;
+      color: #2196F3;
+  }
+
+  .title{
+      font-size: 18px;
+      font-weight: 600;
+      padding-top: 10px;
+  }
+
+  .Pdescription{
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .buttons{
+      width: 100%;
+      margin: auto;
+  }
+  a:link, a:visited {
+   
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(12, 32, 12);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active{
+    background-color: green;
+    color: white;
+}
